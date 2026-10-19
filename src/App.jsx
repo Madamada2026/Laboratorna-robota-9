@@ -1,13 +1,15 @@
 import React from 'react';
-import TextEditorWithShortcuts from './TextEditorWithShortcuts';
-import KanbanBoard from './KanbanBoard';
+import SwipeGesture from './SwipeGesture';
+import './App.css';
 
-export default function App() {
+function App() {
   return (
-    <div style={{ padding: '20px' }}>
-      <TextEditorWithShortcuts />
-      <hr style={{ margin: '40px 0' }} />
-      <KanbanBoard />
+    <div className="App">
+      
+     
+      <SwipeGesture />
     </div>
   );
 }
+
+export default App;
